@@ -7,9 +7,9 @@
 // @match        *://*.tapswap.*/*
 // @grant        none
 // @icon         https://i.postimg.cc/7LJ24T7F/tapsw-aplogo.png
-// @downloadURL  https://raw.githubusercontent.com/jorin07/dir/refs/heads/main/tapswap-web.user.js
-// @updateURL    https://raw.githubusercontent.com/jorin07/dir/refs/heads/main/tapswap-web.user.js
-// @homepage     https://github.com/jorin07/dir
+// @downloadURL  https://github.com/jorin07/TapswapAutoClaimTask/blob/main/tapswap-web.user.js
+// @updateURL    https://github.com/jorin07/TapswapAutoClaimTask/blob/main/tapswap-web.user.js
+// @homepage     https://github.com/jorin07/TapswapAutoClaimTask
 // ==/UserScript==
 (function() {
     'use strict';
@@ -80,7 +80,6 @@
         childList: true,
         subtree: true
     };
-
     observer.observe(document.body, config);
     replaceScriptUrl();
     checkAndReload();
