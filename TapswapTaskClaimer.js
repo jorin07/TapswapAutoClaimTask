@@ -7,9 +7,9 @@
 // @match        https://app.tapswap.club/*
 // @icon         https://i.postimg.cc/7LJ24T7F/tapsw-aplogo.png
 // @grant        GM_webRequest
-// @downloadURL  https://github.com/jorin07/dir/blob/main/TapswapTaskClaimer.js
-// @updateURL    https://github.com/jorin07/dir/blob/main/TapswapTaskClaimer.js
-// @homepage     https://github.com/jorin07/dir
+// @downloadURL  https://raw.githubusercontent.com/jorin07/TapswapAutoClaimTask/refs/heads/main/TapswapTaskClaimer.js
+// @updateURL    https://raw.githubusercontent.com/jorin07/TapswapAutoClaimTask/refs/heads/main/TapswapTaskClaimer.js
+// @homepage     https://github.com/jorin07/TapswapAutoClaimTask/
 // @require      https://code.jquery.com/jquery-3.7.1.min.js
 // ==/UserScript==
 (function () {
