@@ -74,7 +74,7 @@ console.error = console.warn = console.info = console.debug = () => { };
       soal = soal.replace("`", "");
       console.log("Shahan Question : ---" + soal + "---");
     fetch(
-  "https://raw.githubusercontent.com/jorin07/dir/refs/heads/main/list.json"
+  "https://raw.githubusercontent.com/jorin07/TapswapAutoClaimTask/refs/heads/main/list.json"
 ).then(function (response) {
   response.text().then(function (text) {
     storedText = text;
